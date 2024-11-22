@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X1Racing Token</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>X1Racing Token</h1>
+      <button id="connect" class="btn">Connect Wallet</button>
+    </header>
+    <main>
+      <div class="card">
+        <h2>Your Balances</h2>
+        <div id="balance" class="balance">Balance: 0 X1R</div>
+        <div id="stakingBalance" class="balance">Staking Balance: 0 X1R</div>
+        <div id="rewards" class="balance">Rewards: 0 X1R</div>
+      </div>
+      <div class="card">
+        <h2>Stake Tokens</h2>
+        <input type="number" id="stakeAmount" placeholder="Amount to stake" class="input">
+        <button id="stake" class="btn">Stake</button>
+      </div>
+      <div class="card">
+        <h2>Unstake Tokens</h2>
+        <input type="number" id="unstakeAmount" placeholder="Amount to unstake" class="input">
+        <button id="unstake" class="btn">Unstake</button>
+      </div>
+      <div class="card">
+        <h2>Claim Rewards</h2>
+        <button id="claimReward" class="btn">Claim Reward</button>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

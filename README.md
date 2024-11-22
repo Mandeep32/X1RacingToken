@@ -1,4 +1,4 @@
-# X1RacingToken
+# X1Racing Assignment
 
 This project includes an ERC-20 token with staking functionality, deployed on the Goerli/Ropsten testnet. The frontend allows users to interact with the smart contract using Web3.js.
 
@@ -20,7 +20,3 @@ This project includes an ERC-20 token with staking functionality, deployed on th
 
 ## Instructions to Run the Project
 See `instructions.txt` for detailed instructions on how to run the frontend and interact with the contract.
-
-## Additional Information
-- Ensure that your MetaMask is connected to the correct network.
-- If you encounter any issues, check the console for errors and ensure all dependencies are installed correctly.
